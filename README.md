@@ -30,6 +30,10 @@ The U-Net architecture outperformed the DeepLabV3 model. It was observed that hi
 
 Encoders, especially those from the ResNet series, were crucial in determining the model's speed and also influenced the accuracy in detailed areas of the images. This is particularly challenging as the compression process in the encoders reduces the image size, which can affect the model's ability to capture fine details necessary for accurate field segmentation.
 
+
+![image](https://github.com/lfvm/crop_field_detection/assets/57450093/8f7576a6-110d-43ef-b31e-a02bc85d3c57)
+
+
 ## Collaborators
 
 - [Fernando Valdeón](https://github.com/lfvm)
