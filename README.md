@@ -34,6 +34,9 @@ Encoders, especially those from the ResNet series, were crucial in determining t
 ![image](https://github.com/lfvm/crop_field_detection/assets/57450093/8f7576a6-110d-43ef-b31e-a02bc85d3c57)
 
 
+![image](https://github.com/lfvm/crop_field_detection/assets/57450093/3e88832a-8d30-4b29-829a-2a0f60872cb2)
+
+
 ## Collaborators
 
 - [Fernando Valdeón](https://github.com/lfvm)
