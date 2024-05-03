@@ -30,15 +30,23 @@ The U-Net architecture outperformed the DeepLabV3 model. It was observed that hi
 
 Encoders, especially those from the ResNet series, were crucial in determining the model's speed and also influenced the accuracy in detailed areas of the images. This is particularly challenging as the compression process in the encoders reduces the image size, which can affect the model's ability to capture fine details necessary for accurate field segmentation.
 
+## Predictions
+
+The dataset uses a set of predefined classes along with specific RGB values for each class to label the satellite images. These labels help in categorizing different types of land cover visible in the images, which are crucial for accurate segmentation and analysis. Below are the classes and their corresponding RGB values:
+
+- Urban Land: RGB (0, 255, 255) - Cyan
+- Agriculture Land: RGB (255, 255, 0) - Yellow
+- Rangeland: RGB (255, 0, 255) - Magenta
+- Forest Land: RGB (0, 255, 0) - Green
+- Water: RGB (0, 0, 255) - Blue
+- Barren Land: RGB (255, 255, 255) - White
+- Unknown: RGB (0, 0, 0) - Black
 
 ![image](https://github.com/lfvm/crop_field_detection/assets/57450093/8f7576a6-110d-43ef-b31e-a02bc85d3c57)
 
-
 ![image](https://github.com/lfvm/crop_field_detection/assets/57450093/3e88832a-8d30-4b29-829a-2a0f60872cb2)
 
-
 ![image](https://github.com/lfvm/crop_field_detection/assets/57450093/6cfd567e-8406-43c8-973c-50884a589694)
-
 
 ## Collaborators
 
